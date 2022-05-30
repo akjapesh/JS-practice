@@ -23,3 +23,11 @@ change(obj1);
 console.log(
     obj1
 );
+var obj2={
+    key5:"val5",
+    key6: 6,
+}
+var obj3={}
+
+Object.assign(obj3,obj1,obj2);
+console.log(obj3);
